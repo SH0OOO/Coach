@@ -4,8 +4,10 @@ import static org.junit.Assert.*;
 
 import org.junit.Test;
 
+import java.util.Date;
+
 public class ProfilTest {
-    private Profil profil = new Profil(0,67,165,35);
+    private Profil profil = new Profil(0,67,165,35,new Date());
     // résultat de l’img correspondant
     private float img = (float)32.18 ;
     // message correspondant
